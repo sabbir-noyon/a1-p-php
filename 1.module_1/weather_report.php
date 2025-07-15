@@ -1,7 +1,3 @@
-
-<!-- Task-5 -->
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +7,6 @@
     <h2>Weather Report</h2>
 
     <?php
-   
     $temperature = 20; 
    
     if ($temperature < 0) {
@@ -23,8 +18,6 @@
     } else {
         $message = "It's hot!";
     }
-
-  
     echo "<p>Temperature: $temperature&deg;C</p>";
     echo "<p>$message</p>";
     ?>

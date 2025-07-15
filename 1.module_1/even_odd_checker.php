@@ -1,6 +1,3 @@
-
-<!-- Task-4 -->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,21 +5,18 @@
 </head>
 <body>
     <h2>Even or Odd Checker</h2>
-
     <?php
     
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         $number = $_POST["number"];
 
-       
-        if ($number % 2 == 0) {
+       if ($number % 2 == 0) {
             $result = "even";
         } else {
             $result = "odd";
         }
 
-       
         echo "<p>The number $number is $result.</p>";
     }
     ?>
